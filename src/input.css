@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    @apply bg-white w-[230px] flex justify-center items-center rounded-[20px] shadow-[#D7D7D7] shadow-md h-[230px] hover:scale-110 transition duration-300 cursor-pointer;
+}
+
+.link {
+    @apply border-white border-solid border-2 rounded-full p-2 hover:translate-y-[-3px] transition duration-300;
+}
